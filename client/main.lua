@@ -2,7 +2,7 @@ local progress = {}
 
 progress.open = false
 
-Progress = function(message, time, color)
+local function Progress(message, time, color)
     if not progress.open then
         progress.open = true
         SendNUIMessage({
