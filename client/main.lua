@@ -19,3 +19,7 @@ end
 RegisterNUICallback('finish', function()
     progress.open = false
 end)
+
+RegisterNetEvent('mdn_progressbar:progress', function(message, time, color)
+    Progress(message, time, color)
+end)
