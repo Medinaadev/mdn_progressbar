@@ -6,6 +6,6 @@
 
 ```TriggerEvent('mdn_progressbar:progress', message, time, color)```
 
-The parametter "color" is optional.
+The parametter "time" and "color" is optional.
 
 Discord: https://discord.gg/2xzPmyCmsj
