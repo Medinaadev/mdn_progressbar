@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    font-family: 'Quicksand';
+    font-weight: 800;
+}
+
+.progress {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, 50%);
+    width: 15vw;
+    min-height: 1.5vw;
+    border-radius: .6vw;
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 0 0 .25vw black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.progress-text {
+    position: relative;
+    color: white;
+    text-shadow: 0 0 .2vw black;
+    font-size: .8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: .25vw;
+}
+
+.progress-inside {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #0053cf;
+}
